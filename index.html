@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maplewood Dental — Your Family Dentist in Surrey, BC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300;1,9..144,400&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       FLOATING BOOK BUTTON
+  ============================================================ -->
+  <a href="#contact" class="floating-btn" id="floating-btn" aria-label="Book an appointment">
+    <span class="floating-btn-icon" aria-hidden="true">📅</span>
+    Book Online
+  </a>
+
+  <!-- ============================================================
+       TOP CONTACT BAR
+  ============================================================ -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-left">
+        <a href="tel:+16045550100" class="topbar-item">
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.36 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.63a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          (604) 555-0100
+        </a>
+        <a href="mailto:hello@maplewooddental.ca" class="topbar-item">
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          hello@maplewooddental.ca
+        </a>
+        <span class="topbar-item topbar-addr">
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          456 King George Blvd, Surrey BC
+        </span>
+      </div>
+      <div class="topbar-right">
+        <a href="#" aria-label="Instagram" class="topbar-social">
+          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="#" aria-label="Facebook" class="topbar-social">
+          <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <span class="topbar-sep">|</span>
+        <span class="topbar-hours">Open Mon–Fri 8am–7pm · Sat 9am–4pm</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       NAV
+  ============================================================ -->
+  <header class="nav" id="main-nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" aria-label="Maplewood Dental home">
+        <span class="logo-leaf" aria-hidden="true">🍁</span>
+        <span class="logo-text">
+          <span class="logo-name">Maplewood Dental</span>
+          <span class="logo-tagline">Surrey, BC</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <div class="nav-item">
+          <button class="nav-btn" aria-haspopup="true" aria-expanded="false">
+            Services
+            <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="nav-dropdown" role="menu">
+            <a href="#preventive" role="menuitem">Teeth Cleaning</a>
+            <a href="#preventive" role="menuitem">Emergency Dentist</a>
+            <a href="#preventive" role="menuitem">Children's Dentist</a>
+            <a href="#preventive" role="menuitem">Dental Fillings</a>
+            <a href="#cosmetic" role="menuitem">Crowns &amp; Bridges</a>
+            <a href="#cosmetic" role="menuitem">Clear Braces</a>
+            <a href="#cosmetic" role="menuitem">Porcelain Veneers</a>
+            <a href="#cosmetic" role="menuitem">Teeth Whitening</a>
+            <a href="#cosmetic" role="menuitem">Dental Implants</a>
+            <a href="#cosmetic" role="menuitem">Sedation Dentistry</a>
+          </div>
+        </div>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact" class="nav-contact-btn">Contact Us</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="nav-mobile" id="mobile-menu" aria-label="Mobile navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <span class="mobile-head">Preventive Services</span>
+      <a href="#preventive">Teeth Cleaning</a>
+      <a href="#preventive">Emergency Dentist</a>
+      <a href="#preventive">Children's Dentist</a>
+      <a href="#preventive">Dental Fillings</a>
+      <span class="mobile-head">Cosmetic Services</span>
+      <a href="#cosmetic">Crowns &amp; Bridges</a>
+      <a href="#cosmetic">Clear Braces</a>
+      <a href="#cosmetic">Porcelain Veneers</a>
+      <a href="#cosmetic">Teeth Whitening</a>
+      <a href="#cosmetic">Dental Implants</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" id="home" aria-label="Welcome">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Welcome to Maplewood Dental</p>
+        <h1 class="hero-headline">Your Trusted Family<br /><em>Dentist in Surrey</em></h1>
+        <p class="hero-sub">Choosing the right dental practice means finding a place that combines comfort with experience. At Maplewood Dental, you'll always be treated with respect and care — for every stage of your smile.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-coral">Book an Appointment</a>
+          <a href="#about" class="btn btn-ghost">Learn About Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY CHOOSE US — 4-icon feature strip
+  ============================================================ -->
+  <section class="features" aria-label="Why choose us">
+    <div class="container">
+      <h2 class="features-title">Why Choose Maplewood Dental</h2>
+      <p class="features-sub">We care for patients of all ages and help you maintain a healthy smile for life. Clear communication and thoughtful treatment planning are the foundation of lasting oral health.</p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🕗</div>
+          <h3 class="feature-name">Extended Hours</h3>
+          <p class="feature-desc">Open until 8 PM on Mondays and Tuesdays, plus one Saturday each month — because life doesn't stop at 5.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🚨</div>
+          <h3 class="feature-name">Same-Day Emergency Care</h3>
+          <p class="feature-desc">Dental emergencies don't wait. We keep same-day slots open so you can get relief quickly when it matters most.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🦷</div>
+          <h3 class="feature-name">Comprehensive Care</h3>
+          <p class="feature-desc">A wide variety of dental services under one roof — from routine cleanings to full smile transformations.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">💳</div>
+          <h3 class="feature-name">Flexible Payment Plans</h3>
+          <p class="feature-desc">We work with most insurance plans and offer accessible financial roadmaps to make great dental care affordable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT — alternating two-column sections
+  ============================================================ -->
+  <section class="about" id="about" aria-label="About the practice">
+    <div class="container">
+
+      <!-- ROW 1: image left, text right -->
+      <div class="about-row">
+        <div class="about-img-wrap">
+          <img src="clinic.jpg" alt="Inside Maplewood Dental — a bright, modern treatment room with blue dental chair" />
+        </div>
+        <div class="about-text">
+          <span class="eyebrow">Comprehensive care for every smile</span>
+          <h2 class="section-title">Seeing the dentist should feel simple and stress-free.</h2>
+          <p>At Maplewood Dental, our friendly team is here to make every visit comfortable while giving you the care and attention you deserve. We believe great dentistry starts with great communication — we explain everything clearly, so you're always in control of your treatment.</p>
+          <p>Whether you're coming in for a routine cleaning, bringing the kids for their first visit, or looking to transform your smile, we have the expertise and technology to help.</p>
+          <a href="#contact" class="btn btn-coral" style="margin-top:8px;">Book a Visit</a>
+        </div>
+      </div>
+
+      <!-- Accreditation logos -->
+      <div class="accred-strip" aria-label="Professional accreditations">
+        <p class="accred-label">Trusted dental care from qualified, certified dentists</p>
+        <div class="accred-logos">
+          <div class="accred-badge">CDA<br/><span>Canadian Dental Association</span></div>
+          <div class="accred-badge">CDSBC<br/><span>College of Dental Surgeons of BC</span></div>
+          <div class="accred-badge">BCCOHP<br/><span>BC College of Oral Health Professionals</span></div>
+          <div class="accred-badge">CDCP<br/><span>Canadian Dental Care Plan Accepted</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PREVENTIVE DENTISTRY — image right
+  ============================================================ -->
+  <section class="service-section" id="preventive" aria-label="Preventive dentistry">
+    <div class="container">
+      <div class="about-row about-row--flip">
+        <div class="about-text">
+          <span class="eyebrow">Preventive Dentistry</span>
+          <h2 class="section-title">Prevention is the foundation of good oral health.</h2>
+          <p>Our preventive dentistry services focus on regular checkups and treatments that catch problems before they start — saving you time, discomfort, and cost in the long run.</p>
+          <ul class="service-list">
+            <li>
+              <a href="#">Teeth Cleaning &amp; Hygiene</a>
+              <span>Professional cleaning to remove plaque and tartar you can't reach at home.</span>
+            </li>
+            <li>
+              <a href="#">Children's Dentist</a>
+              <span>Gentle, fun appointments that build healthy habits from the very first tooth.</span>
+            </li>
+            <li>
+              <a href="#">Dental Digital X-Rays</a>
+              <span>Low-radiation digital imaging for precise, comfortable diagnostics.</span>
+            </li>
+            <li>
+              <a href="#">Emergency Dental Care</a>
+              <span>Same-day appointments for toothaches, cracked teeth, and lost restorations.</span>
+            </li>
+            <li>
+              <a href="#">Dental Fillings</a>
+              <span>Tooth-coloured composite fillings that blend seamlessly with your natural teeth.</span>
+            </li>
+            <li>
+              <a href="#">Sedation Dentistry</a>
+              <span>Comfortable options for anxious patients — tell us what you need.</span>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Book a Preventive Appointment</a>
+        </div>
+        <div class="about-img-wrap">
+          <img src="preventive.jpg" alt="Dentist performing a careful examination with a patient in the chair" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       COSMETIC DENTISTRY — image left
+  ============================================================ -->
+  <section class="service-section service-section--alt" id="cosmetic" aria-label="Cosmetic dentistry">
+    <div class="container">
+      <div class="about-row">
+        <div class="about-img-wrap">
+          <img src="cosmetic.jpg" alt="Young patient smiling confidently with braces" />
+        </div>
+        <div class="about-text">
+          <span class="eyebrow">Cosmetic Dentistry</span>
+          <h2 class="section-title">A smile you're proud to show off.</h2>
+          <p>Whether it's a subtle refresh or a complete smile makeover, our cosmetic treatments are designed to give you confidence — using the best techniques and materials available.</p>
+          <ul class="service-list">
+            <li>
+              <a href="#">Crowns &amp; Bridges</a>
+              <span>Natural-looking restorations that protect damaged teeth and fill gaps.</span>
+            </li>
+            <li>
+              <a href="#">Clear Braces &amp; Aligners</a>
+              <span>Discreet teeth-straightening without the look of traditional metal braces.</span>
+            </li>
+            <li>
+              <a href="#">Porcelain Veneers</a>
+              <span>Ultra-thin custom shells that transform colour, shape, and alignment.</span>
+            </li>
+            <li>
+              <a href="#">Teeth Whitening</a>
+              <span>In-office and take-home options for a brilliantly brighter smile.</span>
+            </li>
+            <li>
+              <a href="#">Dental Implants</a>
+              <span>Permanent replacement teeth that look, feel, and function like the real thing.</span>
+            </li>
+            <li>
+              <a href="#">Dental Botox</a>
+              <span>Therapeutic Botox for TMJ pain, teeth grinding, and facial aesthetics.</span>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Book a Cosmetic Consult</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       REVIEWS
+  ============================================================ -->
+  <section class="reviews" id="reviews" aria-label="Patient reviews">
+    <div class="container">
+      <div class="reviews-header">
+        <span class="eyebrow">What patients say</span>
+        <h2 class="section-title">Trusted by families across Surrey</h2>
+        <p class="reviews-sub">We're proud of our 4.9★ Google rating — here's what a few of our patients have shared.</p>
+      </div>
+      <div class="reviews-grid">
+
+        <div class="review-card">
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="review-text">"My family has been coming here for three years now. The staff are so welcoming and patient with my kids — they actually don't dread going to the dentist anymore. Highly recommend!"</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">SL</div>
+            <div>
+              <strong>Sandra L.</strong>
+              <span>Family patient · Google Review</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card review-card--featured">
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="review-text">"I had an emergency on a Tuesday evening and they fit me in the same day. Professional, caring, and completely pain-free. The extended hours are a game changer for working parents."</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">DM</div>
+            <div>
+              <strong>David M.</strong>
+              <span>Emergency patient · Google Review</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="review-text">"Got porcelain veneers done here and the results are stunning. The team walked me through every step and the final result is exactly what I'd hoped for. Couldn't be happier."</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">RP</div>
+            <div>
+              <strong>Rachel P.</strong>
+              <span>Cosmetic patient · Google Review</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="reviews-cta">
+        <a href="https://g.page/r/review" target="_blank" rel="noopener" class="btn btn-outline">Read All Reviews on Google →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT / BOOKING FORM
+  ============================================================ -->
+  <section class="contact" id="contact" aria-label="Book an appointment">
+    <div class="container">
+      <div class="contact-inner">
+
+        <div class="contact-copy">
+          <span class="eyebrow">Get in touch</span>
+          <h2 class="section-title">Book Your Appointment</h2>
+          <p>New and returning patients are always welcome. Fill in the form and our team will confirm your appointment within one business day.</p>
+
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <span class="info-icon" aria-hidden="true">📍</span>
+              <span>456 King George Blvd, Suite 101<br />Surrey, BC V3T 2W2</span>
+            </div>
+            <div class="contact-info-item">
+              <span class="info-icon" aria-hidden="true">📞</span>
+              <a href="tel:+16045550100">(604) 555-0100</a>
+            </div>
+            <div class="contact-info-item">
+              <span class="info-icon" aria-hidden="true">✉️</span>
+              <a href="mailto:hello@maplewooddental.ca">hello@maplewooddental.ca</a>
+            </div>
+            <div class="contact-info-item">
+              <span class="info-icon" aria-hidden="true">⏰</span>
+              <span>Mon &amp; Tue: 8am – 8pm<br />Wed – Fri: 8am – 6pm<br />Sat (1×/month): 9am – 4pm</span>
+            </div>
+          </div>
+
+          <div class="accepting-badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            Currently accepting new patients
+          </div>
+        </div>
+
+        <form class="contact-form" novalidate aria-label="Appointment request form">
+          <h3 class="form-heading">Request an Appointment</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First name</label>
+              <input type="text" id="fname" placeholder="Jane" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last name</label>
+              <input type="text" id="lname" placeholder="Smith" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" placeholder="(604) 000-0000" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" placeholder="jane@example.com" />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="patient-type">Patient type</label>
+              <select id="patient-type">
+                <option value="">Select…</option>
+                <option>New Patient</option>
+                <option>Returning Patient</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="service">Service needed</label>
+              <select id="service">
+                <option value="">Select…</option>
+                <option>Teeth Cleaning</option>
+                <option>Emergency Care</option>
+                <option>Children's Dentist</option>
+                <option>Dental Filling</option>
+                <option>Crowns &amp; Bridges</option>
+                <option>Clear Braces</option>
+                <option>Porcelain Veneers</option>
+                <option>Teeth Whitening</option>
+                <option>Dental Implants</option>
+                <option>Other / Not Sure</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="notes">Additional notes <span class="optional">(optional)</span></label>
+            <textarea id="notes" rows="3" placeholder="e.g. dental anxiety, preferred time, insurance plan…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-coral btn-full">Send Appointment Request</button>
+          <p class="form-note">We'll confirm by phone or email within one business day.</p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <span aria-hidden="true">🍁</span> Maplewood Dental
+            </div>
+            <p class="footer-tagline">Your neighbourhood dentist in Surrey.<br />Caring for families since 2007.</p>
+            <div class="footer-socials">
+              <a href="#" aria-label="Instagram">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </a>
+              <a href="#" aria-label="Facebook">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
+              <a href="#" aria-label="Google Reviews">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Preventive Services</h4>
+            <ul>
+              <li><a href="#preventive">Teeth Cleaning</a></li>
+              <li><a href="#preventive">Emergency Dentist</a></li>
+              <li><a href="#preventive">Children's Dentist</a></li>
+              <li><a href="#preventive">Dental Fillings</a></li>
+              <li><a href="#preventive">Sedation Dentistry</a></li>
+              <li><a href="#preventive">Digital X-Rays</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Cosmetic Services</h4>
+            <ul>
+              <li><a href="#cosmetic">Crowns &amp; Bridges</a></li>
+              <li><a href="#cosmetic">Clear Braces</a></li>
+              <li><a href="#cosmetic">Porcelain Veneers</a></li>
+              <li><a href="#cosmetic">Teeth Whitening</a></li>
+              <li><a href="#cosmetic">Dental Implants</a></li>
+              <li><a href="#cosmetic">Dental Botox</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Visit Us</h4>
+            <ul>
+              <li>456 King George Blvd</li>
+              <li>Suite 101, Surrey BC V3T 2W2</li>
+              <li><a href="tel:+16045550100">(604) 555-0100</a></li>
+              <li><a href="mailto:hello@maplewooddental.ca">hello@maplewooddental.ca</a></li>
+              <li style="margin-top:8px; opacity:0.5;">Mon &amp; Tue: 8am – 8pm</li>
+              <li style="opacity:0.5;">Wed – Fri: 8am – 6pm</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 Maplewood Dental · Surrey, BC · All rights reserved</p>
+        <nav aria-label="Legal links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Sitemap</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    /* ---- Mobile nav ---- */
+    const hamburger  = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('open');
+      hamburger.classList.toggle('open', open);
+      hamburger.setAttribute('aria-expanded', open);
+    });
+    mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      mobileMenu.classList.remove('open');
+      hamburger.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+    }));
+
+    /* ---- Services dropdown ---- */
+    document.querySelectorAll('.nav-item .nav-btn').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        const item   = btn.closest('.nav-item');
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('open'));
+        if (!isOpen) item.classList.add('open');
+        btn.setAttribute('aria-expanded', !isOpen);
+      });
+    });
+    document.addEventListener('click', () => {
+      document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('open'));
+    });
+
+    /* ---- Floating button ---- */
+    const floatingBtn = document.getElementById('floating-btn');
+    const hero        = document.getElementById('home');
+    const contact     = document.getElementById('contact');
+
+    function updateFloat() {
+      const pastHero   = hero.getBoundingClientRect().bottom < 0;
+      const atContact  = contact.getBoundingClientRect().top < window.innerHeight;
+      floatingBtn.classList.toggle('visible', pastHero && !atContact);
+    }
+    window.addEventListener('scroll', updateFloat, { passive: true });
+    updateFloat();
+  </script>
+
+</body>
+</html>
