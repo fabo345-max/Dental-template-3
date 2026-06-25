@@ -919,7 +919,7 @@ body.loaded {
 }
 
 /* ── Undreamt Designs watermark ── */
-body::before {
+body::after {
   content: '';
   position: fixed;
   bottom: 24px;

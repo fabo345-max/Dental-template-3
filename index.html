@@ -559,5 +559,16 @@
     updateFloat();
   </script>
 
+
+</html>
+  <script>
+    // Show page on load, with 800ms fallback in case load never fires
+    window.addEventListener('load', function() {
+      document.body.classList.add('loaded');
+    });
+    setTimeout(function() {
+      document.body.classList.add('loaded');
+    }, 800);
+  </script>
 </body>
 </html>
