@@ -34,7 +34,7 @@ button, input, select, textarea { font: inherit; border: none; background: none;
   --ink:         #1A1A22;
   --font-head:   'Fraunces', Georgia, serif;
   --font-body:   'Nunito Sans', system-ui, sans-serif;
-  --max-w:       1440px;
+  --max-w:       1140px;
   --ease:        cubic-bezier(0.4,0,0.2,1);
 }
 
@@ -52,7 +52,7 @@ body {
   width: 100%;
   max-width: var(--max-w);
   margin-inline: auto;
-  padding-inline: 20px;
+  padding-inline: 36px;
 }
 
 /* ---------- SHARED ---------- */
@@ -169,7 +169,7 @@ body {
   gap: 16px;
   max-width: var(--max-w);
   margin-inline: auto;
-  padding-inline: 20px;
+  padding-inline: 36px;
   flex-wrap: wrap;
 }
 .topbar-left { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
@@ -212,7 +212,7 @@ body {
   padding-block: 14px;
   max-width: var(--max-w);
   margin-inline: auto;
-  padding-inline: 20px;
+  padding-inline: 36px;
   gap: 24px;
 }
 .nav-logo {
@@ -907,30 +907,4 @@ body {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
   html { scroll-behavior: auto; }
-}
-
-/* ── Page load fade-in ── */
-body {
-  opacity: 0;
-  transition: opacity 0.35s ease;
-}
-body.loaded {
-  opacity: 1;
-}
-
-/* ── Undreamt Designs watermark ── */
-body::after {
-  content: '';
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
-  width: 52px;
-  height: 52px;
-  background-image: url('https://fabo345-max.github.io/undreamt-designs/logo-trimmed.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.35;
-  pointer-events: none;
-  z-index: 9999;
 }
